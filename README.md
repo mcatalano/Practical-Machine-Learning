@@ -1,3 +1,3 @@
 ####An application of machine learning classification techniques to predict human activity from wearable fitness sensor data.
 
-See `ML_project_submission.html` for project summary
+The compiled HTML project summary can be viewed here: http://mcatalano.github.io/Practical-Machine-Learning/
