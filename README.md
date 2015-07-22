@@ -1,3 +1,3 @@
-# Practicle-Machine-Learning
-Project files for human activity recognition project
+An application of machine learning classification techniques to predict human activity from wearable fitness sensor data.
 
+See ML_project_submission.html for project summary
