@@ -1,5 +1,5 @@
 ---
-title: "Human activity prediction from wearable sensor data"
+title: "Human activity prediction from wearable fitness sensor data"
 author: "Michael Catalano"
 date: "Monday, July 20, 2015"
 output: html_document
@@ -80,7 +80,7 @@ pcp
 
 ###Model Training
 
-Training a random forest model on the data allows both evaluation of feature importance and estimation of out-of-bag (OOB) error rate. Additionally, there is no need for cross validation when using an RF model since each tree in the forest is constructed from a different bootstrapped sample of the original data. The model below was limited to 50 trees to reduced processing time. Even with a small number of trees, the OOB error rate is estimated to be 1.2%. A feature plot of the four most important features (based on the Gini index) shows relationships between the features that are most valuable in creating decision splits in the model. It appears that the data with respect to these variables still have considerable overlap, but presumably less than features of lower importance.
+Training a random forest model on the data allows both evaluation of feature importance and estimation of out-of-bag (OOB) error rate. Additionally, there is no need for cross validation when using an RF model since each tree in the forest is constructed from a different bootstrapped sample of the original data. The model below was limited to 50 trees to reduce processing time. Even with a small number of trees, the OOB error rate is estimated to be 1.2%. A feature plot of the four most important features (based on the Gini index) shows relationships between the features that are most valuable in creating decision splits in the model. It appears that the data with respect to these variables still have considerable overlap, but presumably less than features of lower importance.
 
 
 ```{r}
